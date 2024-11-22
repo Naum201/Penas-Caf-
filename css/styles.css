@@ -1,0 +1,119 @@
+/* Estilos globais */
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem;
+}
+
+/* Brand styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+/* Navbar link styling */
+.navbar .nav-link {
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+/* Navbar link hover effect */
+.navbar .nav-link:hover {
+    color: #ddd !important;
+}
+
+/* Carrossel */
+.carousel-item img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #333;
+}
+
+
+/* Cabeçalhos */
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1rem;
+}
+
+.card .btn {
+    background-color: #2c3e50;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card .btn:hover {
+    background-color: #34495e;
+    color: #fff;
+}
+
+/* Botão de contato */
+.container .btn-success {
+    background-color: #25d366;
+    border-color: #25d366;
+    font-size: 1.1rem;
+}
+
+.container .btn-success:hover {
+    background-color: #1ebc5c;
+    border-color: #1ebc5c;
+}
+
+/* Container de página */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+/* Ajustes de layout */
+.row {
+    margin-top: 1rem;
+}
+
+h3 {
+    color: #34495e;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
